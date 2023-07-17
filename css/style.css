@@ -9,6 +9,10 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+
 /* DEBUG da eliminare */
 .b-head-container.debug {
   height: 200px;
@@ -17,6 +21,10 @@ body {
 .boxed-img.debug,
 .boxed-txt.debug {
   height: 200px;
+}
+
+.txt-up .container {
+  height: 500px;
 }
 
 
@@ -33,7 +41,6 @@ header .bottom-header {
 
 /* top-header */
 .t-head-container {
-  display: flex;
   max-width: 1200px;
   width: 70%;
   margin: 0 auto;
@@ -86,7 +93,6 @@ main section {
 }
 
 .container {
-  display: flex;
   max-width: 1200px;
   width: 70%;
   margin: 0 auto;
@@ -102,11 +108,10 @@ main section {
   width: 40%;
 }
 
-
-
-
-
-
+.txt-up .container {
+  background-color: green;
+  width: 70%;
+}
 
 /* fine MAIN */
 
