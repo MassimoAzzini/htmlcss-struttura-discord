@@ -61,6 +61,7 @@ header .bottom-header {
 /* top-header */
 .t-head {
   font-size: 0.7rem;
+  justify-content: space-between;
 }
 
 header .logo,
@@ -71,7 +72,7 @@ header .login {
   padding: 5px;
 }
 
-header .logo,
+/* header .logo,
 header .login {
   width: 80px;
 }
@@ -79,7 +80,7 @@ header .login {
 header .menu {
   width: calc(100% - 80px - 80px);
   text-align: center;
-}
+} */
 
 header .login {
   text-align: right;
@@ -138,13 +139,27 @@ main section {
   background-color: darkorange;
   border: 1px dotted black;
 }
+
  .top-footer .social{
   flex-grow: 1.5;
   background-color: red;
   border: 1px dotted black;
  }
 
+ .bottom-footer {
+  justify-content: space-between;
+  background-color: aquamarine;
+  padding: 10px 0;
+  margin-top: 10px;
+ }
 
+ footer .logo,
+ footer .registrati {
+   background-color: darkolivegreen;
+   border: 1px dotted black;
+   padding: 5px;
+ }
+ 
 
 /* fine FOOTER */
 
