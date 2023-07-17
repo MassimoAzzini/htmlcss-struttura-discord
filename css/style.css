@@ -60,7 +60,7 @@ header .bottom-header {
 }
 
 /* top-header */
-.t-head {
+.t-head-row {
   font-size: 0.7rem;
   justify-content: space-between;
 }
@@ -122,7 +122,7 @@ main section {
   border-bottom: 2px solid #7289da;
 }
 
-.top-footer > nav {
+.top-footer .row > nav {
   flex-grow: 1;
   background-color: darkorange;
   border: 1px dotted black;
@@ -135,10 +135,13 @@ main section {
  }
 
  .bottom-footer {
-  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 20px;
+ }
+
+ .bottom-footer .row {
   background-color: aquamarine;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  justify-content: space-between;
  }
 
  footer .logo,
