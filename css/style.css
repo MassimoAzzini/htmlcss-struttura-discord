@@ -16,11 +16,12 @@ body {
 
 footer {
   background-color: #23272a;
+  font-size: 0.7rem;
 }
 
 .container {
   max-width: 1200px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -35,15 +36,15 @@ footer {
 
 .boxed-img.debug,
 .boxed-txt.debug {
-  height: 200px;
+  height: 400px;
 }
 
 .txt-up .container {
-  height: 500px;
+  height: 1000px;
 }
 
 .top-footer > * {
-  height: 300px;
+  height: 350px;
 }
 
 
@@ -92,7 +93,7 @@ header .login {
   background-color: blueviolet;
   border: 1px dotted black;
   max-width: 1000px;
-  width: 60%;
+  width: 70%;
   min-width: 450px;
   margin: 0 auto;
 }
@@ -106,7 +107,7 @@ main section:nth-child(even) {
 }
 
 main section {
-  padding: 20px 0;
+  padding: 120px 0;
 }
 
 
@@ -123,14 +124,13 @@ main section {
 
 .txt-up .container {
   background-color: green;
-  width: 70%;
 }
 /* fine MAIN */
 
 /* FOOTER */
 .top-footer {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 70px;
+  padding-bottom: 40px;
   border-bottom: 2px solid #7289da;
 }
 
@@ -149,8 +149,8 @@ main section {
  .bottom-footer {
   justify-content: space-between;
   background-color: aquamarine;
-  padding: 10px 0;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
  }
 
  footer .logo,
