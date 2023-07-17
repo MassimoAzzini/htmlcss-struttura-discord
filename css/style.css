@@ -1,0 +1,50 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* DEBUG da eliminare */
+
+
+/* HEADER */
+header .top-header {
+  background-color: aquamarine;
+  padding: 10px 0;
+}
+
+.t-head-containter {
+  display: flex;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 0.7rem;
+}
+
+header .logo,
+header .menu,
+header .login {
+  background-color: orange;
+  border: 1px dotted black;
+  padding: 5px;
+}
+
+header .logo,
+header .login {
+  width: 80px;
+}
+
+header .menu {
+  width: calc(100% - 80px - 80px);
+  text-align: center;
+}
+
+header .login {
+  text-align: right;
+}
+
